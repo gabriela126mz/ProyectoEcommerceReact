@@ -1,0 +1,88 @@
+
+.container-app {
+  overflow-x: hidden; 
+}
+
+/*NavBar*/
+
+.navbar-container {
+  background: #4c4e57;
+  justify-content: center;
+  color:white;
+}
+
+.icon {
+  margin: 1rem;
+  width: 2rem;
+}
+
+.nav-links .nav-link {
+  color: white; 
+}
+
+.form-buscador{
+  display: flex;
+  width: 90%;
+}
+
+aside{
+  background: white;
+  text-align: center;
+  padding: 1rem;;
+  display: flex;
+  justify-content: center;
+}
+
+.descuento {
+  background: black;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 80%;
+}
+
+/*Producto*/
+
+.product-container {
+  display: flex;
+  justify-content: center;
+}
+
+.producto-imagen {
+  height: 300px;
+  width: 200px;
+}
+
+.titulo {
+  margin-bottom: 1rem;
+}
+
+.descripcion {
+  flex-grow: 1;
+}
+
+.precio{
+  color:blue;
+}
+
+.producto-item{
+  display: flex;
+  margin:1rem;
+}
+
+.producto-body{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Footer*/
+footer a{
+  display: block;
+}
+
+footer{
+  background:#4C4E57;
+  text-align:center;
+  color:white;
+  padding: 1rem;
+}
